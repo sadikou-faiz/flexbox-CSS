@@ -17,7 +17,7 @@
   
   /* Box style */
   .box {
-    flex: 1;
+
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -47,6 +47,17 @@
   .align-center { align-items: center; height: 150px; }
   .align-stretch { align-items: stretch; height: 150px; }
   
+
+  /* Centering Both Horizontally and Vertically */
+.center-both {
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjusted height for centering */
+  }
+
+
+
+
   /* Flex Wrap Variants */
   .nowrap { flex-wrap: nowrap; }
   .wrap { flex-wrap: wrap; }
